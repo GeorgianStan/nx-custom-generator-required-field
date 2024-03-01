@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "$id": "MyGenerator",
+  "title": "",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "",
+      "x-prompt": "What name would you like to use?"
+    }
+  },
+  "required": ["name"]
+}
